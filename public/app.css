@@ -1,0 +1,100 @@
+    html, body{
+        height: 100%;
+        margin: 0px;
+        font-size:8px !important;
+
+    }
+    .cmd{
+        width:300px;
+        background-color:black;
+        border:none;
+        color:white;
+    }
+    #filetree{
+    	zoom:80%;
+    }
+    .jstree-default-dark {
+	    background: black;
+	 }
+   .k-content{
+     height:93%;
+   }
+   .k-tabstrip-wrapper{
+     height:99%;
+   }
+    .marker1 {
+      cursor: pointer !important;
+      pointer-events: auto;
+      position: absolute;
+      background-color: rgba(255, 0, 0, 0.4);
+   
+    }
+    /* 点滅 */
+    .blinking{
+        color:red;
+        font-size:10px;
+    	-webkit-animation:blink 0.5s ease-in-out infinite alternate;
+        -moz-animation:blink 0.5s ease-in-out infinite alternate;
+        animation:blink 0.5s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes blink{
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @-moz-keyframes blink{
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @keyframes blink{
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    
+    
+    
+/***************************/
+ .schedule_names{
+   width:200px;
+ }
+ 
+ .schedule_sep{
+   width:10px;
+   background-color:gray;
+ }
+
+ .schedule_title{
+ }
+ 
+ .schedule_name{
+   cursor: pointer;
+   overflow:hidden;
+ }
+
+ .schedule_ym{
+   text-align: center;
+ }
+ 
+ .schedule_day{
+   text-align: center;
+ }
+ .schedule_current{
+   background: #FFFF00;
+   opacity: 0.6;
+ }
+ .schedule_sunday{
+   background:#fa9197;
+   opacity: 0.6;
+ }
+ 
+ .schedule_saturday{
+   background:#82c7ed;
+   opacity: 0.6;
+ }
+
+ .schedule_data{
+   cursor: pointer;
+   overflow:hidden;
+ }
+
+    
+    

@@ -1,0 +1,30 @@
+{
+  "name": "mbsd-editor",
+  "version": "1.0.0",
+  "description": "editor",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "multer": "*",
+    "ejs": "*",
+    "iconv-lite": "*",
+    "ansi-to-html": "*",
+    "fs-extra": "*",
+    "express": "*",
+    "config": "*",
+    "socket.io": "^1.4.8",
+    "pm2": "*"
+  },
+  "devDependencies": {
+    "node-dev": "*"
+  },
+  "scripts": {
+    "test": "node-dev --inspect app/app.js",
+    "start": "pm2 start process.json",
+    "stop": "pm2 kill"
+  },
+  "private": true,
+  "author": "t.shigei",
+  "license": "MIT"
+}
